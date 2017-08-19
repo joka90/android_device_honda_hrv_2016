@@ -1,0 +1,2 @@
+grep -C 20 c0102fb0 vmlinux.asm | grep -C20 -E '(c02cd3d4|c0102fb0|c02d8304)'
+

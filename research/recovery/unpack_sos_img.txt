@@ -1,0 +1,22 @@
+#https://www.ibm.com/developerworks/community/blogs/mhhaque/entry/anatomy_of_the_initrd_and_vmlinuz?lang=en
+od -A d -t x1 sos.img | grep '1f 8b 08 00'
+0019760 6e 20 65 72 72 6f 72 00 1f 8b 08 00 00 00 00 00
+--------------------------------^
+4098048 1f 8b 08 00 00 00 00 00 00 03 b4 7d 0b 7c 14 d5
+
+dd if=sos.img bs=1 skip=19768 | zcat > vmlinux
+readelf -h vmlinux 
+readelf: Error: Not an ELF file - it has the wrong magic bytes at the start
+
+dd if=sos.img bs=1 skip=4098048 | zcat > vmlinux2
+
+joka@ubuntu:/media/joka/3AB0-5C25/PartitionsBackups$ od -c vmlinux | grep 'E   L   F 002 001 001'
+joka@ubuntu:/media/joka/3AB0-5C25/PartitionsBackups$ od -c vmlinux2 | grep 'E   L   F 002 001 001'
+joka@ubuntu:/media/joka/3AB0-5C25/PartitionsBackups$ file vmlinux
+vmlinux: data
+joka@ubuntu:/media/joka/3AB0-5C25/PartitionsBackups$ file vmlinux2 
+vmlinux2: ASCII cpio archive (SVR4 with no CRC)
+
+
+
+

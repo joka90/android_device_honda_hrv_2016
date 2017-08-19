@@ -1,0 +1,218 @@
+shmmax
+shmall
+shmmni
+shm_rmid_forced
+msgmax
+msgmni
+msgmnb
+auto_msgmni
+/home/build/jenkins/workspace/246_14ada-160125_release-1G-1123-user-release-sec-build/trunk/kernel/ipc/sem.c
+/home/build/jenkins/workspace/246_14ada-160125_release-1G-1123-user-release-sec-build/trunk/kernel/ipc/shm.c
+security.capability
+<5>%s: get_vfs_caps_from_disk returned %d for %s
+<6>warning: `%s' has both setuid-root and effective capabilities. Therefore not raising all capabilities.
+/home/build/jenkins/workspace/246_14ada-160125_release-1G-1123-user-release-sec-build/trunk/kernel/security/security.c
+<6>Security Framework initialized
+&(connection->shmem_mutex)
+<3>tf_init_shared_memory(%p): failed to pre allocate descriptor %d
+<3>tf_init_shared_memory(%p): descriptor %d coarse page %d - tf_alloc_coarse_page_table() failed
+<3>tf_init_shared_memory(%p): vmas - failed to get_zeroed_page
+<3>tf_open(): Out of memory for conn!
+<3>tf_map_shmem(%p): maximum shared memories already registered
+<3>tf_map_shmem(%p): failed to allocate descriptor
+tf_driver
+<3>tf_device_register(): kobject_init_and_add failed (error %d)!
+<6>Registering char device %s (%u:%u)
+<3>tf_device_register(): register_chrdev_region failed (error %d)!
+<3>tf_device_register(): cdev_add failed (error %d)!
+stat.memories.allocated: %d
+stat.pages.allocated:    %d
+stat.pages.locked:       %d
+TFNAB01.16.0     
+<6>TF : traces lost...
+<6>TF : %s
+<3>tf_init(): Unsupported Secure World Major Version (0x%02X, expected 0x%02X)!
+<3>tf_init(): get_zeroed_page failed for L1 shared buffer!
+<3>tf_smc_init: r0=0x%08X upon return (expected 0x%08X)!
+<6>FJSEC LSM module initialized
+<6> --------------------
+<6>boot mode=<%d>
+<6>CONFIG_SECURITY_PATH=<%d>
+<6>CONFIG_SECURITY_FJSEC_DISK_DEV_PATH=<%s>
+/dev/block/mmcblk0
+<6>CONFIG_SECURITY_FJSEC_SYSTEM_DIR_PATH=<%s>
+/system/
+<6>CONFIG_SECURITY_FJSEC_SYSTEM_DEV_PATH=<%s>
+/dev/block/mmcblk0p1
+<6>CONFIG_SECURITY_FJSEC_SYSTEM_DEV_PATH2=<%s>
+/dev/block/mmcblk0p2
+<6>CONFIG_SECURITY_FJSEC_FOTA_MODE_ACCESS_PROCESS_NAME=<%s>
+<6>CONFIG_SECURITY_FJSEC_FOTA_MODE_ACCESS_PROCESS_PATH=<%s>
+/sbin/recovery
+<6>CONFIG_SECURITY_FJSEC_SDDOWNLOADER_MODE_ACCESS_PROCESS_NAME=<%s>
+<6>CONFIG_SECURITY_FJSEC_SDDOWNLOADER_MODE_ACCESS_PROCESS_PATH=<%s>
+<6>CONFIG_SECURITY_FJSEC_RECOVERY_MODE_ACCESS_PROCESS_NAME=<%s>
+<6>CONFIG_SECURITY_FJSEC_RECOVERY_MODE_ACCESS_PROCESS_PATH=<%s>
+<6>CONFIG_SECURITY_FJSEC_MAKERCMD_MODE_ACCESS_PROCESS_NAME=<%s>
+makercmd
+<6>CONFIG_SECURITY_FJSEC_MAKERCMD_MODE_ACCESS_PROCESS_PATH=<%s>
+/sbin/makercmd
+<6>CONFIG_SECURITY_FJSEC_OSUPDATE_MODE_ACCESS_PROCESS_NAME=<%s>
+<6>CONFIG_SECURITY_FJSEC_OSUPDATE_MODE_ACCESS_PROCESS_PATH=<%s>
+/bin/recovery
+<6>CONFIG_SECURITY_FJSEC_PROTECT_CHROOT=<%d>
+<6>CONFIG_SECURITY_FJSEC_CHROOT_PATH=<%s>
+<6> devs
+<6>  <0x%08x> <%d> <%d> <0x%08x> <%s>
+<6> modlist
+<6>  <%s>
+<6> accessible area
+<6>  fota mode
+<6>   <0x%llx><0x%llx>
+<6>  sddownloader mode
+<6>  osupdate mode
+<6>  recovery mode
+<6>  maker mode
+<6> mmcdl_device_list
+<6>  <%d><%s><%s>
+<6> ptrace_read_request_policy
+<6>  <%ld>
+<6> rw_access_control_list
+<6>  <%s><%s><%s><%d>
+<6> ptn_acl
+<6>  <%s><%d><%s><%s>
+<6> fs_acl
+<6> devmem_acl
+<6>  <0x%lx><0x%lx><%s><%s>
+<6>%s:%d: REJECT write request. request=<%ld>, process name=%s, uid=%d, pid=%d
+<7>%s:%d: REJECT pid=%d process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT name=NULL process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT Failed allocating buffer. process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT Failed copying from user. process name=%s, uid=%d, pid=%d
+sha256
+<6>%s:%d
+<6>%s:%d: REJECT Failed creating checksum. process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT Mismatched checksum. name=<%s> process name=%s, uid=%d, pid=%d
+checksum: 
+<6>%s:%d: REJECT Mismatched name=<%s> process name=%s, uid=%d, pid=%d
+<6>%s:%d: current process name=<%s>, path=<%s>, uid=<%d>
+<6>%s:%d: Failed getting process path.
+<6>%s:%d: <%s> is banned access.
+<6>%s:%d: REJECT Failed accessing mmcdl device. process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT Failed accessing devmem. pfn=<0x%lx> process name=%s, uid=%d, pid=%d
+<6>%s:%d: prefix hit uid:%d 
+/proc
+<6>%s:%d: REJECT mmap. process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT Failed creating realpath. process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT realpath=%s process name=%s, uid=%d, pid=%d
+/dev/block/mmcblk0p38
+/fota2/
+<6>%s:%d: REJECT R/W MOUNT dev_realpath=%s realpath=%s process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT R/W REMOUNT dev_realpath=%s realpath=%s process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT MOUNT dev_realpath=%s realpath=%s process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT realpath=%s, process name=%s, uid=%d, pid=%d
+<6>%s:%d: r=%d
+<6>%s:%d: REJECT Failed accessing disk device. process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT realpath=%s offset=0x%llx length=0x%llx process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT Failed creating realpath from old_path. process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT Failed creating realpath from new_path. process name=%s, uid=%d, pid=%d
+<6>%s:%d: REJECT old_path=%s new_path=%s process name=%s, uid=%d, pid=%d
+/dev/block/mmcblk0p3
+/dev/block/mmcblk0p4
+/dev/block/mmcblk0p5
+/dev/block/mmcblk0p6
+/dev/block/mmcblk0p7
+/dev/block/mmcblk0p8
+/dev/block/mmcblk0p9
+/dev/block/mmcblk0p10
+/dev/block/mmcblk0p11
+/dev/block/mmcblk0p12
+/dev/block/mmcblk0p13
+/dev/block/mmcblk0p14
+/dev/block/mmcblk0p15
+/dev/block/mmcblk0p16
+/dev/block/mmcblk0p17
+/dev/block/mmcblk0p18
+/dev/block/mmcblk0p19
+/dev/block/mmcblk0p20
+/dev/block/mmcblk0p21
+/dev/block/mmcblk0p22
+
+http://elixir.free-electrons.com/linux/latest/source/include/linux/sched.h#L501
+http://elixir.free-electrons.com/linux/latest/source/include/linux/mm_types.h#L359
+http://elixir.free-electrons.com/linux/latest/source/include/linux/mm_types.h#L284
+
+//struct rw_semaphore mmap_sem;
+//A newly initialized rwsem is available for the next task (reader or writer) that comes along. The interface for code needing read-only access is:
+
+//void down_read(struct rw_semaphore *sem);
+//int down_read_trylock(struct rw_semaphore *sem);
+//void up_read(struct rw_semaphore *sem);
+
+/*
+ * This struct defines a memory VMM memory area. There is one of these
+ * per VM-area/task.  A VM area is any part of the process virtual memory
+ * space that has a special rule for the page-fault handlers (ie a shared
+ * library, the executable area etc).
+ */
+struct vm_area_struct {
+	/* The first cache line has the info for VMA tree walking. */
+
+	unsigned long vm_start;		/* Our start address within vm_mm. */
+	unsigned long vm_end;		/* The first byte after our end address
+					   within vm_mm. */
+
+	/* linked list of VM areas per task, sorted by address */
+	struct vm_area_struct *vm_next, *vm_prev;
+
+	struct rb_node vm_rb;
+
+	/*
+	 * Largest free memory gap in bytes to the left of this VMA.
+	 * Either between this VMA and vma->vm_prev, or between one of the
+	 * VMAs below us in the VMA rbtree and its ->vm_prev. This helps
+	 * get_unmapped_area find a free area of the right size.
+	 */
+	unsigned long rb_subtree_gap;
+
+	/* Second cache line starts here. */
+
+	struct mm_struct *vm_mm;	/* The address space we belong to. */
+	pgprot_t vm_page_prot;		/* Access permissions of this VMA. */
+	unsigned long vm_flags;		/* Flags, see mm.h. */
+
+	struct file * vm_file;		/* File we map to (can be NULL). */
+	void * vm_private_data;		/* was vm_pte (shared mem) */
+
+
+};
+
+
+//d_path: Convert a dentry into an ASCII path name. If the entry has been deleted the string “ (deleted)” is appended. Note that this is ambiguous.
+//Returns a pointer into the buffer or an error code if the path was too long. Note: Callers should use the returned pointer, not the passed in buffer, to use the name! The implementation often starts at an offset into the buffer, and may leave 0 bytes at the start. 
+static char *get_process_path(struct task_struct *task, char *buf, size_t size)
+{
+    struct mm_struct *mm;
+    struct vm_area_struct *vma;
+    char *cp = NULL;
+
+    mm = task->mm;
+    if (!mm) {
+        dprintk(KERN_INFO "%s:%d mm is null.\n", __FUNCTION__, __LINE__);
+        return NULL;
+    }
+
+    down_read(&mm->mmap_sem);
+    for (vma = mm->mmap; vma; vma = vma->vm_next) {
+        if ((vma->vm_flags & VM_EXECUTABLE) && vma->vm_file) {
+            cp = d_path(&vma->vm_file->f_path, buf, size);
+            break;
+        }
+    }
+    up_read(&mm->mmap_sem);
+
+    return cp;
+}
+
+#http://em386.blogspot.se/2006/10/elf-no-section-header-no-problem.html
+

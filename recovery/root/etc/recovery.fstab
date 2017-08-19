@@ -1,1 +1,9 @@
-# From the stock recovery image
+# mount point	fstype		device
+
+/system         ext4            /dev/block/platform/sdhci-tegra.3/by-name/APP
+/cache          ext4            /dev/block/platform/sdhci-tegra.3/by-name/CAC
+/data           ext4            /dev/block/platform/sdhci-tegra.3/by-name/UDA		length=-32768
+/sdcard         vfat            /dev/block/platform/sdhci-tegra.0/by-num/p1
+/usbdrive       vfat            /dev/block/platform/tegra-ehci.2/sda
+/usbdrive2      vfat            /dev/block/platform/tegra-ehci.1/sda
+

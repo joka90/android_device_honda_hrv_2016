@@ -1,4 +1,47 @@
 #
-# system.prop for codename
+# ADDITIONAL_DEFAULT_PROPERTIES
 #
+#ro.product.model=MY15ADA
+#ro.product.brand=Honda
+#ro.product.name=e1853
+#ro.product.device=e1853
+#ro.product.board=ften
+#ro.product.cpu.abi=armeabi-v7a
+#ro.product.cpu.abi2=armeabi
+#ro.product.manufacturer=FUJITSU-TEN
+#ro.product.locale.language=en
+#ro.product.locale.region=GB
+#ro.wifi.channels=
+#ro.board.platform=tegra
+# ro.build.product is obsolete; use ro.product.device
+#ro.build.product=e1853
+# Do not try to parse ro.build.description or .fingerprint
+ro.build.description=e1853-user 4.0.4 0C.091.01.1123 ada3s.20160125.135340 release-keys
+ro.build.fingerprint=Honda/e1853/e1853:4.0.4/0C.091.01.1123/ada3s.20160125.135340:user/release-keys
+ro.build.characteristics=tablet
+# end build properties
+#/*----------------------------------------------------------------------------*/
+#// COPYRIGHT(C) FUJITSU TEN LIMITED 2012
+#/*----------------------------------------------------------------------------*/
+ro.opengles.version = 131072
+wifi.interface=wlan0
+rild.libpath=/system/lib/libril-icera.so
+rild.libargs=-e wwan0 -e wwan0:0 -e wwan0:1
+persist.tegra.nvmmlite = 1
+#/* FUJITSU TEN:2012-12-26 AudioSettingService start */
+persist.ada.interrupt.volume=6
+#/* FUJITSU TEN:2012-12-26 AudioSettingService end */
 
+# FUJITSU TEN:2013-01-08 disable visual warning start
+persist.sys.strictmode.visual=0
+persist.sys.strictmode.disable=1
+# FUJITSU TEN:2013-01-08 disable visual warning end
+
+#NFC
+debug.nfc.fw_download=false
+debug.nfc.se=false
+
+ro.ril.wake_lock_timeout=200000
+
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+tf.enable=y

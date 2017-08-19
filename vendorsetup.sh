@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_codname-eng
+add_lunch_combo omni_honda_hrv_2016-eng
 

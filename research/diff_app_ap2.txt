@@ -1,0 +1,303 @@
+Binary files app/app/ApplicationsProvider.apk and ap2/app/ApplicationsProvider.apk differ
+Binary files app/app/ApplicationsProvider.odex and ap2/app/ApplicationsProvider.odex differ
+Only in app/app: AppModeApp.apk
+Only in ap2/app: AppModeAppNhmi.apk
+Only in ap2/app: AppModeAppNhmi.odex
+Only in app/app: AppModeApp.odex
+Binary files app/app/AppModeService.odex and ap2/app/AppModeService.odex differ
+Binary files app/app/audioOffScreenService.odex and ap2/app/audioOffScreenService.odex differ
+Only in app/app: AudioPowerOffApp.apk
+Only in ap2/app: AudioPowerOffAppNhmi.apk
+Only in ap2/app: AudioPowerOffAppNhmi.odex
+Only in app/app: AudioPowerOffApp.odex
+Binary files app/app/AudioSetting.odex and ap2/app/AudioSetting.odex differ
+Binary files app/app/BackupRestoreConfirmation.apk and ap2/app/BackupRestoreConfirmation.apk differ
+Binary files app/app/BackupRestoreConfirmation.odex and ap2/app/BackupRestoreConfirmation.odex differ
+Binary files app/app/Bluetooth.apk and ap2/app/Bluetooth.apk differ
+Only in app/app: BluetoothaudioApp.apk
+Only in ap2/app: BluetoothaudioAppNhmi.apk
+Only in ap2/app: BluetoothaudioAppNhmi.odex
+Only in app/app: BluetoothaudioApp.odex
+Binary files app/app/BluetoothAudioService.odex and ap2/app/BluetoothAudioService.odex differ
+Binary files app/app/BluetoothContactsService.odex and ap2/app/BluetoothContactsService.odex differ
+Binary files app/app/Bluetooth.odex and ap2/app/Bluetooth.odex differ
+Binary files app/app/BluetoothSetting.odex and ap2/app/BluetoothSetting.odex differ
+Only in app/app: BrightnessService.apk
+Only in ap2/app: BrightnessServiceNhmi.apk
+Only in ap2/app: BrightnessServiceNhmi.odex
+Only in app/app: BrightnessService.odex
+Binary files app/app/Browser.apk and ap2/app/Browser.apk differ
+Binary files app/app/Browser.odex and ap2/app/Browser.odex differ
+Binary files app/app/Calculator.apk and ap2/app/Calculator.apk differ
+Binary files app/app/Calculator.odex and ap2/app/Calculator.odex differ
+Binary files app/app/Calendar.apk and ap2/app/Calendar.apk differ
+Binary files app/app/Calendar.odex and ap2/app/Calendar.odex differ
+Binary files app/app/CalendarProvider.apk and ap2/app/CalendarProvider.apk differ
+Binary files app/app/CalendarProvider.odex and ap2/app/CalendarProvider.odex differ
+Binary files app/app/CertInstaller.apk and ap2/app/CertInstaller.apk differ
+Binary files app/app/CertInstaller.odex and ap2/app/CertInstaller.odex differ
+Binary files app/app/Contacts.apk and ap2/app/Contacts.apk differ
+Binary files app/app/Contacts.odex and ap2/app/Contacts.odex differ
+Binary files app/app/ContactsProvider.apk and ap2/app/ContactsProvider.apk differ
+Binary files app/app/ContactsProvider.odex and ap2/app/ContactsProvider.odex differ
+Only in app/app: DabApp.apk
+Only in ap2/app: DabAppNhmi.apk
+Only in ap2/app: DabAppNhmi.odex
+Only in app/app: DabApp.odex
+Binary files app/app/Dab.odex and ap2/app/Dab.odex differ
+Only in app/app: DA_Launcher.apk
+Only in ap2/app: DA_LauncherNhmi.apk
+Only in ap2/app: DA_LauncherNhmi.odex
+Only in app/app: DA_Launcher.odex
+Binary files app/app/DefaultContainerService.apk and ap2/app/DefaultContainerService.apk differ
+Binary files app/app/DefaultContainerService.odex and ap2/app/DefaultContainerService.odex differ
+Binary files app/app/DeskClock.odex and ap2/app/DeskClock.odex differ
+Binary files app/app/DiagApp.odex and ap2/app/DiagApp.odex differ
+Binary files app/app/DiagProvider.apk and ap2/app/DiagProvider.apk differ
+Binary files app/app/DiagProvider.odex and ap2/app/DiagProvider.odex differ
+Only in app/app: DiscApp.apk
+Only in ap2/app: DiscAppNhmi.apk
+Only in ap2/app: DiscAppNhmi.odex
+Only in app/app: DiscApp.odex
+Binary files app/app/Disc.odex and ap2/app/Disc.odex differ
+Binary files app/app/DisplayaudioProvider.odex and ap2/app/DisplayaudioProvider.odex differ
+Binary files app/app/DownloadProvider.apk and ap2/app/DownloadProvider.apk differ
+Binary files app/app/DownloadProvider.odex and ap2/app/DownloadProvider.odex differ
+Binary files app/app/DownloadProviderUi.apk and ap2/app/DownloadProviderUi.apk differ
+Binary files app/app/DownloadProviderUi.odex and ap2/app/DownloadProviderUi.odex differ
+Binary files app/app/DrmProvider.apk and ap2/app/DrmProvider.apk differ
+Binary files app/app/DrmProvider.odex and ap2/app/DrmProvider.odex differ
+Binary files app/app/EcNcService.apk and ap2/app/EcNcService.apk differ
+Binary files app/app/EcNcService.odex and ap2/app/EcNcService.odex differ
+Binary files app/app/Email.odex and ap2/app/Email.odex differ
+Binary files app/app/Exchange.odex and ap2/app/Exchange.odex differ
+Binary files app/app/Galaxy4.odex and ap2/app/Galaxy4.odex differ
+Binary files app/app/Gallery2.odex and ap2/app/Gallery2.odex differ
+Only in app/app: GroundSettings.apk
+Only in ap2/app: GroundSettingsNhmi.apk
+Only in ap2/app: GroundSettingsNhmi.odex
+Only in app/app: GroundSettings.odex
+Binary files app/app/HandsfreeService.apk and ap2/app/HandsfreeService.apk differ
+Binary files app/app/HandsfreeService.odex and ap2/app/HandsfreeService.odex differ
+Only in app/app: HdmiApp.apk
+Only in ap2/app: HdmiAppNhmi.apk
+Only in ap2/app: HdmiAppNhmi.odex
+Only in app/app: HdmiApp.odex
+Binary files app/app/Hdmi.odex and ap2/app/Hdmi.odex differ
+Only in app/app: HftApp.apk
+Only in ap2/app: HftAppNhmi.apk
+Only in ap2/app: HftAppNhmi.odex
+Only in app/app: HftApp.odex
+Binary files app/app/HftSelfDiagService.odex and ap2/app/HftSelfDiagService.odex differ
+Binary files app/app/HoloSpiralWallpaper.apk and ap2/app/HoloSpiralWallpaper.apk differ
+Binary files app/app/HoloSpiralWallpaper.odex and ap2/app/HoloSpiralWallpaper.odex differ
+Binary files app/app/homeAppService.odex and ap2/app/homeAppService.odex differ
+Binary files app/app/HTMLViewer.apk and ap2/app/HTMLViewer.apk differ
+Binary files app/app/HTMLViewer.odex and ap2/app/HTMLViewer.odex differ
+Binary files app/app/IapSelectorService.odex and ap2/app/IapSelectorService.odex differ
+Binary files app/app/IMidService.odex and ap2/app/IMidService.odex differ
+Only in app/app: InfoApp.apk
+Only in ap2/app: InfoAppNhmi.apk
+Only in ap2/app: InfoAppNhmi.odex
+Only in app/app: InfoApp.odex
+Binary files app/app/infoModeService.odex and ap2/app/infoModeService.odex differ
+Binary files app/app/InspectionService.odex and ap2/app/InspectionService.odex differ
+Binary files app/app/InspectionUsbAccessService.odex and ap2/app/InspectionUsbAccessService.odex differ
+Only in app/app: iPodAudioApp.apk
+Only in ap2/app: iPodAudioAppNhmi.apk
+Only in ap2/app: iPodAudioAppNhmi.odex
+Only in app/app: iPodAudioApp.odex
+Binary files app/app/IPodModeService.odex and ap2/app/IPodModeService.odex differ
+Binary files app/app/KeyChain.apk and ap2/app/KeyChain.apk differ
+Binary files app/app/KeyChain.odex and ap2/app/KeyChain.odex differ
+Binary files app/app/KeyOffTimer.odex and ap2/app/KeyOffTimer.odex differ
+Only in app/app: LatinIME_DA.apk
+Only in ap2/app: LatinIME_DANhmi.apk
+Only in ap2/app: LatinIME_DANhmi.odex
+Only in app/app: LatinIME_DA.odex
+Binary files app/app/LiveWallpapers.apk and ap2/app/LiveWallpapers.apk differ
+Binary files app/app/LiveWallpapers.odex and ap2/app/LiveWallpapers.odex differ
+Binary files app/app/LiveWallpapersPicker.apk and ap2/app/LiveWallpapersPicker.apk differ
+Binary files app/app/LiveWallpapersPicker.odex and ap2/app/LiveWallpapersPicker.odex differ
+Binary files app/app/LpaService.odex and ap2/app/LpaService.odex differ
+Binary files app/app/MagicSmokeWallpapers.apk and ap2/app/MagicSmokeWallpapers.apk differ
+Binary files app/app/MagicSmokeWallpapers.odex and ap2/app/MagicSmokeWallpapers.odex differ
+Binary files app/app/MediaProvider.apk and ap2/app/MediaProvider.apk differ
+Binary files app/app/MediaProvider.odex and ap2/app/MediaProvider.odex differ
+Binary files app/app/MirrorLinkActivity.apk and ap2/app/MirrorLinkActivity.apk differ
+Binary files app/app/MirrorLinkActivity.odex and ap2/app/MirrorLinkActivity.odex differ
+Binary files app/app/MirrorLinkProvider.apk and ap2/app/MirrorLinkProvider.apk differ
+Binary files app/app/MirrorLinkProvider.odex and ap2/app/MirrorLinkProvider.odex differ
+Binary files app/app/Music.apk and ap2/app/Music.apk differ
+Binary files app/app/MusicFX.odex and ap2/app/MusicFX.odex differ
+Binary files app/app/Music.odex and ap2/app/Music.odex differ
+Binary files app/app/NoiseField.odex and ap2/app/NoiseField.odex differ
+Only in app/app: OpeningScreen.apk
+Only in ap2/app: OpeningScreenNhmi.apk
+Only in ap2/app: OpeningScreenNhmi.odex
+Only in app/app: OpeningScreen.odex
+Only in app/app: OsUpdateDrawService.apk
+Only in ap2/app: OsUpdateDrawServiceNhmi.apk
+Only in ap2/app: OsUpdateDrawServiceNhmi.odex
+Only in app/app: OsUpdateDrawService.odex
+Binary files app/app/OsUpdateService.apk and ap2/app/OsUpdateService.apk differ
+Binary files app/app/OsUpdateService.odex and ap2/app/OsUpdateService.odex differ
+Binary files app/app/PackageInstaller.apk and ap2/app/PackageInstaller.apk differ
+Binary files app/app/PackageInstaller.odex and ap2/app/PackageInstaller.odex differ
+Binary files app/app/PhaseBeam.odex and ap2/app/PhaseBeam.odex differ
+Binary files app/app/Phone.apk and ap2/app/Phone.apk differ
+Binary files app/app/Phone.odex and ap2/app/Phone.odex differ
+Binary files app/app/PicoTts.odex and ap2/app/PicoTts.odex differ
+Binary files app/app/Provision.apk and ap2/app/Provision.apk differ
+Binary files app/app/Provision.odex and ap2/app/Provision.odex differ
+Binary files app/app/QuickSearchBox.apk and ap2/app/QuickSearchBox.apk differ
+Binary files app/app/QuickSearchBox.odex and ap2/app/QuickSearchBox.odex differ
+Binary files app/app/RearCameraProvider.odex and ap2/app/RearCameraProvider.odex differ
+Only in app/app: RearViewCameraService.apk
+Only in ap2/app: RearViewCameraServiceNhmi.apk
+Only in ap2/app: RearViewCameraServiceNhmi.odex
+Only in app/app: RearViewCameraService.odex
+Binary files app/app/ScreenshotService.odex and ap2/app/ScreenshotService.odex differ
+Binary files app/app/settingModeService.odex and ap2/app/settingModeService.odex differ
+Binary files app/app/Settings.apk and ap2/app/Settings.apk differ
+Binary files app/app/Settings.odex and ap2/app/Settings.odex differ
+Binary files app/app/SettingsProvider.apk and ap2/app/SettingsProvider.apk differ
+Binary files app/app/SettingsProvider.odex and ap2/app/SettingsProvider.odex differ
+Binary files app/app/SharedStorageBackup.apk and ap2/app/SharedStorageBackup.apk differ
+Binary files app/app/SharedStorageBackup.odex and ap2/app/SharedStorageBackup.odex differ
+Only in app/app: SiriEfmApp.apk
+Only in ap2/app: SiriEfmAppNhmi.apk
+Only in ap2/app: SiriEfmAppNhmi.odex
+Only in app/app: SiriEfmApp.odex
+Binary files app/app/SiriEfmService.odex and ap2/app/SiriEfmService.odex differ
+Only in app/app: SteeringMenuService.apk
+Only in ap2/app: SteeringMenuServiceNhmi.apk
+Only in ap2/app: SteeringMenuServiceNhmi.odex
+Only in app/app: SteeringMenuService.odex
+Only in app/app: SystemUI.apk
+Only in ap2/app: SystemUINhmi.apk
+Only in ap2/app: SystemUINhmi.odex
+Only in app/app: SystemUI.odex
+Only in app/app: TaskManagerApp.apk
+Only in ap2/app: TaskManagerAppNhmi.apk
+Only in ap2/app: TaskManagerAppNhmi.odex
+Only in app/app: TaskManagerApp.odex
+Binary files app/app/TaskManagerModeService.odex and ap2/app/TaskManagerModeService.odex differ
+Binary files app/app/TaskManagerService.odex and ap2/app/TaskManagerService.odex differ
+Binary files app/app/TelephonyProvider.apk and ap2/app/TelephonyProvider.apk differ
+Binary files app/app/TelephonyProvider.odex and ap2/app/TelephonyProvider.odex differ
+Binary files app/app/TouchUpdate.apk and ap2/app/TouchUpdate.apk differ
+Binary files app/app/TouchUpdate.odex and ap2/app/TouchUpdate.odex differ
+Binary files app/app/traffic.odex and ap2/app/traffic.odex differ
+Only in app/app: TunerApp.apk
+Only in ap2/app: TunerAppNhmi.apk
+Only in ap2/app: TunerAppNhmi.odex
+Only in app/app: TunerApp.odex
+Binary files app/app/Tuner.odex and ap2/app/Tuner.odex differ
+Only in app/app: USBApp.apk
+Only in ap2/app: USBAppNhmi.apk
+Only in ap2/app: USBAppNhmi.odex
+Only in app/app: USBApp.odex
+Only in app/app: USBInstaller.apk
+Only in ap2/app: USBInstallerNhmi.apk
+Only in ap2/app: USBInstallerNhmi.odex
+Only in app/app: USBInstaller.odex
+Binary files app/app/UsbMediaProvider.apk and ap2/app/UsbMediaProvider.apk differ
+Binary files app/app/UsbMediaProvider.odex and ap2/app/UsbMediaProvider.odex differ
+Binary files app/app/UsbWallpaperSettingService.odex and ap2/app/UsbWallpaperSettingService.odex differ
+Binary files app/app/UserDictionaryProvider.apk and ap2/app/UserDictionaryProvider.apk differ
+Binary files app/app/UserDictionaryProvider.odex and ap2/app/UserDictionaryProvider.odex differ
+Binary files app/app/vehicleinfo.odex and ap2/app/vehicleinfo.odex differ
+Binary files app/app/VisualizationWallpapers.apk and ap2/app/VisualizationWallpapers.apk differ
+Binary files app/app/VisualizationWallpapers.odex and ap2/app/VisualizationWallpapers.odex differ
+Only in app/app: VoiceTagApp.apk
+Only in ap2/app: VoiceTagAppNhmi.apk
+Only in ap2/app: VoiceTagAppNhmi.odex
+Only in app/app: VoiceTagApp.odex
+Binary files app/app/VoiceTagService.odex and ap2/app/VoiceTagService.odex differ
+Only in app/app: VolumeService.apk
+Only in ap2/app: VolumeServiceNhmi.apk
+Only in ap2/app: VolumeServiceNhmi.odex
+Only in app/app: VolumeService.odex
+Binary files app/app/VpnDialogs.apk and ap2/app/VpnDialogs.apk differ
+Binary files app/app/VpnDialogs.odex and ap2/app/VpnDialogs.odex differ
+Binary files app/app/WhiteListUpdateService.odex and ap2/app/WhiteListUpdateService.odex differ
+Binary files app/bin/debuggerd and ap2/bin/debuggerd differ
+Binary files app/bin/iPod and ap2/bin/iPod differ
+Binary files app/bin/ModeInterMiddle and ap2/bin/ModeInterMiddle differ
+Binary files app/bin/nvidia_tegra_proprietary_src_modules-timestamp.ssig and ap2/bin/nvidia_tegra_proprietary_src_modules-timestamp.ssig differ
+diff -r app/build.prop ap2/build.prop
+5c5
+< ro.build.version.incremental=ada3s.20160125.130809
+---
+> ro.build.version.incremental=ada3s.20160125.135340
+9,10c9,10
+< ro.build.date=2016å¹´  1æœˆ 25æ—¥ æœˆæ›œæ—¥ 13:08:47 JST
+< ro.build.date.utc=1453694927
+---
+> ro.build.date=2016å¹´  1æœˆ 25æ—¥ æœˆæ›œæ—¥ 13:54:18 JST
+> ro.build.date.utc=1453697658
+30,31c30,31
+< ro.build.description=e1853-user 4.0.4 0C.091.01.1123 ada3s.20160125.130809 release-keys
+< ro.build.fingerprint=Honda/e1853/e1853:4.0.4/0C.091.01.1123/ada3s.20160125.130809:user/release-keys
+---
+> ro.build.description=e1853-user 4.0.4 0C.091.01.1123 ada3s.20160125.135340 release-keys
+> ro.build.fingerprint=Honda/e1853/e1853:4.0.4/0C.091.01.1123/ada3s.20160125.135340:user/release-keys
+Binary files app/etc/NOTICE.html.gz and ap2/etc/NOTICE.html.gz differ
+Binary files app/framework/ada-ext.jar and ap2/framework/ada-ext.jar differ
+Binary files app/framework/ada-ext.odex and ap2/framework/ada-ext.odex differ
+Binary files app/framework/ada-ext-res.apk and ap2/framework/ada-ext-res.apk differ
+Binary files app/framework/ada-widget.jar and ap2/framework/ada-widget.jar differ
+Binary files app/framework/ada-widget.odex and ap2/framework/ada-widget.odex differ
+Binary files app/framework/am.jar and ap2/framework/am.jar differ
+Binary files app/framework/am.odex and ap2/framework/am.odex differ
+Binary files app/framework/android.policy.jar and ap2/framework/android.policy.jar differ
+Binary files app/framework/android.policy.odex and ap2/framework/android.policy.odex differ
+Binary files app/framework/android.test.runner.jar and ap2/framework/android.test.runner.jar differ
+Binary files app/framework/android.test.runner.odex and ap2/framework/android.test.runner.odex differ
+Binary files app/framework/apache-xml.jar and ap2/framework/apache-xml.jar differ
+Binary files app/framework/apache-xml.odex and ap2/framework/apache-xml.odex differ
+Binary files app/framework/bmgr.jar and ap2/framework/bmgr.jar differ
+Binary files app/framework/bmgr.odex and ap2/framework/bmgr.odex differ
+Binary files app/framework/bouncycastle.jar and ap2/framework/bouncycastle.jar differ
+Binary files app/framework/bouncycastle.odex and ap2/framework/bouncycastle.odex differ
+Binary files app/framework/bu.jar and ap2/framework/bu.jar differ
+Binary files app/framework/bu.odex and ap2/framework/bu.odex differ
+Binary files app/framework/com.android.location.provider.jar and ap2/framework/com.android.location.provider.jar differ
+Binary files app/framework/com.android.location.provider.odex and ap2/framework/com.android.location.provider.odex differ
+Binary files app/framework/core.jar and ap2/framework/core.jar differ
+Binary files app/framework/core-junit.jar and ap2/framework/core-junit.jar differ
+Binary files app/framework/core-junit.odex and ap2/framework/core-junit.odex differ
+Binary files app/framework/core.odex and ap2/framework/core.odex differ
+Binary files app/framework/ext.jar and ap2/framework/ext.jar differ
+Binary files app/framework/ext.odex and ap2/framework/ext.odex differ
+Binary files app/framework/filterfw.jar and ap2/framework/filterfw.jar differ
+Binary files app/framework/filterfw.odex and ap2/framework/filterfw.odex differ
+Binary files app/framework/framework.jar and ap2/framework/framework.jar differ
+Binary files app/framework/framework.odex and ap2/framework/framework.odex differ
+Binary files app/framework/framework-res.apk and ap2/framework/framework-res.apk differ
+Binary files app/framework/ime.jar and ap2/framework/ime.jar differ
+Binary files app/framework/ime.odex and ap2/framework/ime.odex differ
+Binary files app/framework/input.jar and ap2/framework/input.jar differ
+Binary files app/framework/input.odex and ap2/framework/input.odex differ
+Binary files app/framework/javax.obex.jar and ap2/framework/javax.obex.jar differ
+Binary files app/framework/javax.obex.odex and ap2/framework/javax.obex.odex differ
+Binary files app/framework/monkey.jar and ap2/framework/monkey.jar differ
+Binary files app/framework/monkey.odex and ap2/framework/monkey.odex differ
+Binary files app/framework/pm.jar and ap2/framework/pm.jar differ
+Binary files app/framework/pm.odex and ap2/framework/pm.odex differ
+Binary files app/framework/services.jar and ap2/framework/services.jar differ
+Binary files app/framework/services.odex and ap2/framework/services.odex differ
+Binary files app/framework/svc.jar and ap2/framework/svc.jar differ
+Binary files app/framework/svc.odex and ap2/framework/svc.odex differ
+Binary files app/lib/libbcc.so and ap2/lib/libbcc.so differ
+diff -r app/lib/libbcc.so.sha1 ap2/lib/libbcc.so.sha1
+1c1
+< DÈ€–èî[rfvÖ¥˜™Ý(
+\ No newline at end of file
+---
+> rø(÷)ïÁåO	?ù(ÍÆJëu
+\ No newline at end of file
+Binary files app/lib/libchromium_net.so and ap2/lib/libchromium_net.so differ
+Binary files app/lib/libwebcore.so and ap2/lib/libwebcore.so differ
+Binary files app/lib/libwebrtc_audio_preprocessing.so and ap2/lib/libwebrtc_audio_preprocessing.so differ

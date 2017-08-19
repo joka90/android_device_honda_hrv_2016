@@ -1,0 +1,82 @@
+on early-init
+    start ueventd
+
+on init
+    export PATH /sbin
+    export ANDROID_ROOT /system
+    export ANDROID_DATA /data
+    export EXTERNAL_STORAGE /sdcard
+
+    symlink /system/etc /etc
+
+    mkdir /sdcard
+# DEL start FUJITSU TEN :2013-02-25 LSM
+    # mkdir /system
+# DEL end FUJITSU TEN :2013-02-25 LSM
+    mkdir /data
+    mkdir /cache
+    mount /tmp /tmp tmpfs
+# FUJITSU TEN:2012-09-01 OsUpdate start
+    mkdir /usbdrive 0666 system system
+    mkdir /usbdrive2 0666 system system
+
+# FUJITSU TEN:2014-08-28 OsUpdate_fsck BEGIN
+    start CpuInterMiddle
+
+    wait /dev/block/platform/sdhci-tegra.3/by-name/UDA
+    fsck -y /dev/block/platform/sdhci-tegra.3/by-name/UDA
+    fsck -y /dev/block/platform/sdhci-tegra.3/by-name/CAC
+    fsck -y /dev/block/platform/sdhci-tegra.3/by-name/MAP
+    fsck -y /dev/block/platform/sdhci-tegra.3/by-name/LOG
+# FUJITSU TEN:2014-08-28 OsUpdate_fsck END
+
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/APP /system wait ro remount
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/UDA /data wait noatime nosuid nodev
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/CAC /cache wait noatime nosuid nodev
+# FUJITSU TEN:2012-09-01 OsUpdate end
+# FUJITSU TEN:2013-06-11 LOG start
+    mkdir /log 0660 system system
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/LOG /log wait nosuid nodev
+# FUJITSU TEN:2013-06-11 LOG end
+
+on boot
+
+    ifup lo
+    hostname localhost
+    domainname localdomain
+
+    class_start default
+
+service ueventd /sbin/ueventd
+    critical
+
+service recovery /sbin/recovery
+
+service adbd /sbin/adbd recovery
+    disabled
+
+# FUJITSU TEN:2012-12-11 CpuInterMiddle start
+#service CpuInterMiddle /sbin/CpuInterMiddle --recovery
+# FUJITSU TEN:2012-12-11 CpuInterMiddle end
+
+# FUJITSU TEN:2013-05-14 DrcInterMiddle start
+#service DrcInterMiddle /sbin/DrcInterMiddle --recovery
+# FUJITSU TEN:2013-05-14 DrcInterMiddle end
+
+# Always start adbd on userdebug and eng builds
+on property:ro.debuggable=1
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 18D1
+    write /sys/class/android_usb/android0/idProduct D001
+    write /sys/class/android_usb/android0/functions adb
+    write /sys/class/android_usb/android0/enable 1
+    write /sys/class/android_usb/android0/iManufacturer $ro.product.manufacturer
+    write /sys/class/android_usb/android0/iProduct $ro.product.model
+    write /sys/class/android_usb/android0/iSerial $ro.serialno
+    start adbd
+
+# Restart adbd so it can run as root
+on property:service.adb.root=1
+    write /sys/class/android_usb/android0/enable 0
+    restart adbd
+    write /sys/class/android_usb/android0/enable 1

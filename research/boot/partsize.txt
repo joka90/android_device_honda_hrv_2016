@@ -1,0 +1,338 @@
+app_112@android:/ $ su
+root@android:/ # pwd
+/
+root@android:/ # ls /proc/
+1
+100
+101
+10132
+10135
+1016
+102
+10355
+10379
+10383
+10387
+10388
+104
+10469
+105
+106
+108
+11005
+111
+1116
+112
+11203
+11207
+11208
+11215
+113
+114
+1148
+115
+116
+117
+118
+11847
+11870
+119
+12
+120
+121
+122
+1265
+12668
+13
+13056
+13062
+13063
+13611
+13661
+1373
+138
+14
+14516
+1458
+15
+151
+153
+16
+162
+163
+164
+165
+166
+167
+168
+169
+16955
+17
+170
+1702
+171
+1715
+173
+18
+19
+1927
+2
+20
+21
+21062
+22
+22130
+2216
+23
+23621
+24
+24794
+24940
+24941
+25
+25134
+25789
+26
+26077
+26197
+262
+26210
+26213
+26214
+26215
+26216
+26217
+26218
+26219
+26220
+26221
+26236
+26248
+26254
+26269
+26271
+26298
+263
+26302
+26439
+26488
+26508
+26519
+26523
+26524
+26545
+27
+272
+29
+3
+30
+31
+32
+33
+3440
+3594
+374
+46
+47
+48
+490
+50
+51
+52
+53
+54
+544
+545
+585
+599
+6
+611
+62
+63
+634
+64
+647
+65
+6595
+66
+660
+6638
+6665
+6695
+67
+6719
+6757
+6779
+6813
+683
+697
+7
+707
+7193
+722
+7236
+732
+7327
+7465
+753
+7540
+766
+784
+798
+80
+81
+815
+82
+8220
+83
+84
+848
+85
+860
+87
+872
+88
+884
+89
+896
+90
+9061
+909
+9099
+91
+92
+923
+93
+94
+943
+955
+96
+967
+97
+9759
+9770
+979
+98
+99
+9961
+asound
+board_serial
+buddyinfo
+bus
+cgroups
+cmdline
+config.gz
+consoles
+cpu
+cpuinfo
+crypto
+devices
+diskstats
+driver
+execdomains
+fb
+filesystems
+fs
+interrupts
+iomem
+ioports
+iovmminfo
+irq
+kallsyms
+kmsg
+kpagecount
+kpageflags
+loadavg
+locks
+mcci_trace
+meminfo
+misc
+modules
+mounts
+mtd
+net
+pagetypeinfo
+partitions
+prodinfo
+prodver
+sched_debug
+schedstat
+scsi
+self
+skuinfo
+skuver
+slabinfo
+softirqs
+stat
+sys
+sysrq-trigger
+sysvipc
+timer_list
+timer_stats
+tty
+uid_stat
+uptime
+version
+vmallocinfo
+vmstat
+zoneinfo
+root@android:/ # cat /proc/config.gz > /usbdrive2/config.gz
+root@android:/ # ls /proc/partitions
+/proc/partitions
+root@android:/ # cat /proc/partitions
+major minor  #blocks  name
+
+  31        0      65536 mtdblock0
+ 179        0   15269888 mmcblk0
+ 179        1    1064960 mmcblk0p1 APP
+ 179        2    1064960 mmcblk0p2 ALG
+ 179        3      16384 mmcblk0p3 SOS
+ 179        4       8192 mmcblk0p4 LM4
+ 179        5       8192 mmcblk0p5 NUT
+ 179        6       8192 mmcblk0p6 PAD
+ 179        7       8192 mmcblk0p7 NV1
+ 259        0       8192 mmcblk0p8 EKS
+ 259        1       8192 mmcblk0p9 SC1
+ 259        2       8192 mmcblk0p10 SC2
+ 259        3       8192 mmcblk0p11 SST
+ 259        4       8192 mmcblk0p12 LLG
+ 259        5       8192 mmcblk0p13 KLG
+ 259        6      16384 mmcblk0p14 ALG
+ 259        7    1048576 mmcblk0p15 LOG
+ 259        8       8192 mmcblk0p16 PP1
+ 259        9       8192 mmcblk0p17 PP2
+ 259       10       8192 mmcblk0p18 MSC
+ 259       11     270336 mmcblk0p19 CAC
+ 259       12   10240000 mmcblk0p20 MAP
+ 259       13      49152 mmcblk0p21 PRE
+ 259       14    1384431 mmcblk0p22 UDA
+   8        0   15232000 sda
+   8        1   15231984 sda1
+
+
+app_112@android:/ $ ls -al /dev/block/platform/*/by-name
+lrwxrwxrwx root     root              2013-01-01 02:00 ALG -> /dev/block/mmcblk0p14# wrtiten to by https://github.com/joka90/honda_android_connect/blob/master/kernel/drivers/misc/lites/ioctl.c ? Logs when kernel panic? or ubinux?!?!
+lrwxrwxrwx root     root              2013-01-01 02:00 AP2 -> /dev/block/mmcblk0p2#/system2/ built 30min after normal system and applications prepended with Nhmi
+lrwxrwxrwx root     root              2013-01-01 02:00 APP -> /dev/block/mmcblk0p1#/system/
+lrwxrwxrwx root     root              2013-01-01 02:00 CAC -> /dev/block/mmcblk0p19#/cache/
+lrwxrwxrwx root     root              2013-01-01 02:00 EKS -> /dev/block/mmcblk0p8
+lrwxrwxrwx root     root              2013-01-01 02:00 KLG -> /dev/block/mmcblk0p13#kernel log?
+lrwxrwxrwx root     root              2013-01-01 02:00 LLG -> /dev/block/mmcblk0p12#bootloader log
+lrwxrwxrwx root     root              2013-01-01 02:00 LM4 -> /dev/block/mmcblk0p4
+lrwxrwxrwx root     root              2013-01-01 02:00 LOG -> /dev/block/mmcblk0p15#bootloader and kernel log as txt
+lrwxrwxrwx root     root              2013-01-01 02:00 MAP -> /dev/block/mmcblk0p20#mounted as map, stores the garmin map data here
+lrwxrwxrwx root     root              2013-01-01 02:00 MSC -> /dev/block/mmcblk0p18#/misc/
+lrwxrwxrwx root     root              2013-01-01 02:00 NUT -> /dev/block/mmcblk0p5
+lrwxrwxrwx root     root              2013-01-01 02:00 NV1 -> /dev/block/mmcblk0p7# non volatile memmory used by  https://github.com/joka90/honda_android_connect/blob/master/kernel/drivers/nonvolatile/nonvolatile_priv.h and the boot loader to communicate, see strings of /dev/block/mmcblk0p12, also with this kind of data kernel/include/linux/model_param_access.h
+
+lrwxrwxrwx root     root              2013-01-01 02:00 PAD -> /dev/block/mmcblk0p6
+lrwxrwxrwx root     root              2013-01-01 02:00 PP1 -> /dev/block/mmcblk0p16
+lrwxrwxrwx root     root              2013-01-01 02:00 PP2 -> /dev/block/mmcblk0p17
+lrwxrwxrwx root     root              2013-01-01 02:00 PRE -> /dev/block/mmcblk0p21#mounted under /pre/ 
+lrwxrwxrwx root     root              2013-01-01 02:00 SC1 -> /dev/block/mmcblk0p9
+lrwxrwxrwx root     root              2013-01-01 02:00 SC2 -> /dev/block/mmcblk0p10
+lrwxrwxrwx root     root              2013-01-01 02:00 SOS -> /dev/block/mmcblk0p3#/recovery/
+lrwxrwxrwx root     root              2013-01-01 02:00 SST -> /dev/block/mmcblk0p11
+lrwxrwxrwx root     root              2013-01-01 02:00 UDA -> /dev/block/mmcblk0p22#/data/
+app_112@android:/ $
+

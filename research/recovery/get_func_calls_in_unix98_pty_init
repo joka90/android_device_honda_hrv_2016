@@ -1,0 +1,3 @@
+grep tty_default_fops ../boot/kallsyms
+grep cdev_init ../boot/kallsyms
+grep ptmx_open ../boot/kallsyms

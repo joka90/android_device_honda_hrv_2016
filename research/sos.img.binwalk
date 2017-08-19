@@ -1,0 +1,7 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Android bootimg, kernel size: 4095336 bytes, kernel addr: 0x10008000, ramdisk size: 3072140 bytes, ramdisk addr: 0x11000000, product name: ""
+19768         0x4D38          gzip compressed data, maximum compression, from Unix, NULL date (1970-01-01 00:00:00)
+4098048       0x3E8800        gzip compressed data, from Unix, NULL date (1970-01-01 00:00:00)
+
